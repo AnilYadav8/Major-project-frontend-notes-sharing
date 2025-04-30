@@ -19,8 +19,7 @@ export default function StudentLoginPage() {
 
 
    const response = await fetch(
-     `https://script.google.com/macros/s/AKfycbxRqhW-IMR9e2P_497Bd3uupdIXI0Sfzd4eRzZ2FWOq0dYqHlxvtxahBEmHDRLhIoql/exec?userId=${userId}`
-   );
+   `https://script.google.com/macros/s/AKfycbxRqhW-IMR9e2P_497Bd3uupdIXI0Sfzd4eRzZ2FWOq0dYqHlxvtxahBEmHDRLhIoql/exec?userId=${userId}`);
    const data = await response.json();
 
 
